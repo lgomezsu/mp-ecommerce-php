@@ -1,4 +1,5 @@
 <?php
+/*
 // SDK de Mercado Pago
 require_once __DIR__ .'/vendor/autoload.php';
 
@@ -100,7 +101,7 @@ if(isset($_POST["submit"]) && !empty($_POST["submit"])) {
 
     $preference->save(); # Save the preference and send the HTTP Request to create
 }
-
+*/
 ?>
 
 
