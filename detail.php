@@ -9,12 +9,13 @@ MercadoPago\SDK::setAccessToken('APP_USR-6317427424180639-042414-47e969706991d3a
 /*
 // Codigo Integrador
 MercadoPago\SDK::setIntegratorId("dev_24c65fb163bf11ea96500242ac130004");
-*/
+
 
 // ARMA PREFERENCIA
 $preference = new MercadoPago\Preference();
+*/
 date_default_timezone_set("America/Argentina/Buenos_Aires");
-/*
+
 # Recoge información del item
 $titulo = $_POST['title'];
 $precio = $_POST['price'];
@@ -22,7 +23,7 @@ $cantidad = $_POST['unit'];
 $imagen = $_POST['img'];
 $imagen0 = substr($imagen,1);
 $url_imagen = dirname(__FILE__) . $imagen0;
-
+/*
 # Arma el item
 $item = new MercadoPago\Item();
 $item = array(
