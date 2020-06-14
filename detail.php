@@ -1,8 +1,8 @@
 <?php
-
+/*
 // SDK de Mercado Pago
 require_once __DIR__ .'/vendor/autoload.php';
-/*
+
 // Agrega credenciales
 MercadoPago\SDK::setAccessToken('APP_USR-6317427424180639-042414-47e969706991d3a442922b0702a0da44-469485398');
 
@@ -13,7 +13,7 @@ MercadoPago\SDK::setIntegratorId("dev_24c65fb163bf11ea96500242ac130004");
 
 // ARMA PREFERENCIA
 $preference = new MercadoPago\Preference();
-
+*/
 date_default_timezone_set("America/Argentina/Buenos_Aires");
 
 # Recoge información del item
