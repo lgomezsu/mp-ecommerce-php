@@ -13,7 +13,7 @@ MercadoPago\SDK::setIntegratorId("dev_24c65fb163bf11ea96500242ac130004");
 
 // ARMA PREFERENCIA
 $preference = new MercadoPago\Preference();
-*/
+
 date_default_timezone_set("America/Argentina/Buenos_Aires");
 
 # Recoge información del item
