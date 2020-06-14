@@ -71,7 +71,7 @@ $preference->external_reference = "lgomezsu01@gmail.com";
 $preference->binary_mode = false;
 
 # Identificador de Vendedor
-$preference->collector_id = "469485398";
+// $preference->collector_id = "469485398";
 
 
 # Recoge información del comprador
